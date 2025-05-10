@@ -1,0 +1,57 @@
+body {
+  font-family: Georgia, serif;
+  margin: 20px;
+  background-color: #e9b544;
+  color: #222;
+}
+
+.headline {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  font-family: 'UnifrakturCook', cursive;;
+}
+
+hr {
+  border: 0.5px solid #100d0d;
+  margin: 10px 0;
+}
+
+.newspaper {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 15px;
+  background-color: #ffffff62;
+  border: 1px solid #47aa75;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid red;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+.ad-box {
+  border: 1px dashed #dfd2d2;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #fdfdfdbb;
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #222;
+}
